@@ -4,3 +4,10 @@ markdown:  kramdown
 pygments: true
 tagline: h46k, ha.ck, blog, notes
 permalink: /:categories/:year/:month/:day/:title 
+# enables SmartyPants (nice curly quotation marks, em/en dashes, elipses, etc):
+rdiscount:
+  extensions: [smart]
+# Since GH pages override this to "true", we test this value to see if we are running locally
+port: 3000
+safe: false
+lsi: false

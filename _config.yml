@@ -1,3 +1,6 @@
-name: resume of Bao Duy 
-markdown: redcarpet
+name: resume of Bao Duy
+title : resume
+markdown:  kramdown
 pygments: true
+tagline: h46k, ha.ck, blog, notes
+permalink: /:categories/:year/:month/:day/:title 
